@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Sriracha&family=The+Girl+Next+Door&display=swap');
+
+:root {
+    --cor1:#D1DD23;
+    --cor2:#B1BB1E;
+    --cor3:#909918;
+    --cor4:#50550E;
+    
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor2), var(--cor3));
+    font-family: "Balthazar" ,Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    margin: 0;
+}
+
+
+section {
+    width: 400px;
+    background-color: white;
+    padding: 45px;
+    border-radius: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    box-shadow: 1px 1px 20px 0px #181a0411;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: var(--cor4);
+}
+
+div {
+    position: relative;
+}
+
+#mostrar {
+    font-size: 1.3em;
+    line-height: 1.7;
+    transition: opacity 0.2s ease;
+}
+
+#copiar {
+    position: absolute;
+    top: 12px;
+    right: -25px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background-color: #f19720;
+    color: #110d03;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    box-shadow: 1px 2px 5px 0px #50550e3a;
+}
+
+#copiar {
+    padding: 0px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: none;
+    transform: none;
+}
+
+/*efeito ao passar o mouse */
+button:hover {
+    background-color:  #a86205;
+    transform: scale(1.02);
+    color: white;
+}
+
+ /*efeito ao clicar*/ 
+button:active {
+    transform: scale(0.98);
+} 
+
