@@ -1,4 +1,4 @@
-# 💬 Gerador de Frases Motivacionais
+# 💬 Gerador de Frases Motivacionais <a href="https://igorvalentimalves.github.io/gerador-frases-motivacionais/frases.html">(Acessar)</a>
 
 Projeto simples desenvolvido com HTML, CSS e JavaScript puro, com o objetivo de praticar conceitos fundamentais de JavaScript.
 
